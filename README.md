@@ -21,4 +21,5 @@
 
 ### Thesis: 
 
-### Presentation: 
+### [Presentation](https://github.com/CantOkan/ENG402_Final_Year_Project/files/4841293/CanOkanTaskiran_2.Sunum.pdf)
+
