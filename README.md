@@ -17,8 +17,7 @@
 
 
 
+### [Thesis](https://github.com/CantOkan/ENG402_Final_Year_Project/files/4841294/CAN.OKAN.TASKIRAN100042773.pdf)
 
+### [Presentation](https://github.com/CantOkan/ENG402_Final_Year_Project/files/4841293/CanOkanTaskiran_2.Sunum.pdf)
 
-### Thesis: 
-
-### Presentation: 
