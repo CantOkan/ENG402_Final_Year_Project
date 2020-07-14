@@ -1,6 +1,23 @@
 ## Offline Signature Verification with Siamese Network
+## Resim gelecek
 
-#### This is my final year project and also main subject of my thesis. 
+In that project Siamse Convolutional Neural Network Model is used for offline signature verifcation. It takes two signature pair for verification (Genuine-Forge).
+The feature vector produced by both sides of the Siamese network is measured by a similarity metric containing Euclidean distance. This similarity metric is the most preferred Constrastive loss function, described below.
+
+
+```
+## formula 
+```
+```python
+def contrastive_loss(l, y_pred):
+    margin = 1
+    #http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf
+    margin_square = (K.maximum(margin - y_pred, 0))**2
+    # α,β= ½ 
+    return K.mean((l * (y_pred)**2)*l + (1 - l)* margin_square)
+```
+
+
 
 ### Dataset and Preprocessing 
 ____
@@ -25,7 +42,7 @@ pip install -r requirements.txt
 
 
 
-
+#### This is my final year project and also main subject of my thesis. 
 ### [Thesis](https://github.com/CantOkan/ENG402_Final_Year_Project/files/4841294/CAN.OKAN.TASKIRAN100042773.pdf)
 
 ### [Presentation](https://github.com/CantOkan/ENG402_Final_Year_Project/files/4841293/CanOkanTaskiran_2.Sunum.pdf)
