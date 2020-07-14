@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles.css') }}">
+
+    <style>
+        #verify_button{
+        color:red;
+        position: absolute;
+        left: 400px;
+        top: 450px;
+        }
+
+        .pred_p{
+            display: none;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div> </div>
+
+    <img src="{{url_for('static',filename=image_file1)}}" width="400" height="400">
+    <img src="{{url_for('static',filename=image_file2)}}" width="400" height="400">
+    <button id="verify_button" type="submit">Verify</button>
+    <h1 class="pred_p">{{pred}}</h1>
+</body>
+</html>
