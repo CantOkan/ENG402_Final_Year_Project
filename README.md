@@ -4,7 +4,7 @@
 ### This is my final year project and also main subject of my thesis
 
 
-
+This model is trained on [CEDAR dataset] (http://www.cedar.buffalo.edu/NIJ/data/signatures.rar )
 
 
 
