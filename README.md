@@ -1,17 +1,26 @@
 # ENG402_Final_Year_Project
+____
 ## Offline Signature Verification with Siamese Network
+#### This is my final year project and also main subject of my thesis. 
 
-### This is my final year project and also main subject of my thesis
-
-
+### Dataset and Preprocessing 
+____
 The model is trained on [CEDAR dataset](http://www.cedar.buffalo.edu/NIJ/data/signatures.rar )
+
+##### Run the Restful Web Services
+
+```
+python webservice.py
+```
 
 
 
 
 ### Code Requirements 
 ---------------
-
+```
+pip install -r requirements.txt
+```
 
 
 
