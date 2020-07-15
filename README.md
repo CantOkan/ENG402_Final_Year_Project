@@ -5,9 +5,9 @@ In that project Siamse Convolutional Neural Network Model is used for offline si
 The feature vector produced by both sides of the Siamese network is measured by a similarity metric containing Euclidean distance. This similarity metric is the most preferred Constrastive loss function, described below.
 
 
-```
+
 ![Constr](https://user-images.githubusercontent.com/25572428/87487976-d19e1f80-c647-11ea-8182-a9d0fdf125f5.PNG)
-```
+
 ```python
 def contrastive_loss(l, y_pred):
     margin = 1
