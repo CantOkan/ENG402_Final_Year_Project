@@ -6,7 +6,7 @@ The feature vector produced by both sides of the Siamese network is measured by 
 
 
 ```
-## formula 
+![Constr](https://user-images.githubusercontent.com/25572428/87487976-d19e1f80-c647-11ea-8182-a9d0fdf125f5.PNG)
 ```
 ```python
 def contrastive_loss(l, y_pred):
