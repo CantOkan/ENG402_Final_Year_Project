@@ -30,10 +30,14 @@ ____
 * Images were resized to 155x220 then normalized
 
 ##### Original Image
-![image](https://user-images.githubusercontent.com/25572428/87489667-41aea480-c64c-11ea-870c-3c3c7b861117.png)
 
 ##### After Preprocessing
 ![image](https://user-images.githubusercontent.com/25572428/87489668-4410fe80-c64c-11ea-953d-d4b93d5c87a6.png)
+
+|Original Image | After Preprocessing| 
+| ------------- |:-------------:|
+|![image](https://user-images.githubusercontent.com/25572428/87489667-41aea480-c64c-11ea-870c-3c3c7b861117.png)|![image](https://user-images.githubusercontent.com/25572428/87489668-4410fe80-c64c-11ea-953d-d4b93d5c87a6.png)|
+
 
 ### Training
 The model is trained on Google Colab using Keras which is **Siamese_network_forColab.ipynb**. The model and best weights are saved for the prediction
