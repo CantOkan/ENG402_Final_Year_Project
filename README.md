@@ -17,7 +17,7 @@ def contrastive_loss(l, y_pred):
     return K.mean((l * (y_pred)**2)*l + (1 - l)* margin_square)
 ```
 
-### Model
+### Model illustration
 ![Siamese](https://user-images.githubusercontent.com/25572428/87487785-41f87100-c647-11ea-8f40-ec7d694625fa.png)
 
 
