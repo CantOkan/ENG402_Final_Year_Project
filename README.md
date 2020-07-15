@@ -24,7 +24,17 @@ def contrastive_loss(l, y_pred):
 
 ### Dataset and Preprocessing 
 ____
-The model is trained on [CEDAR dataset](http://www.cedar.buffalo.edu/NIJ/data/signatures.rar )
+* The model is trained on [CEDAR dataset](http://www.cedar.buffalo.edu/NIJ/data/signatures.rar )
+* Images were grouped in pairs of genuine and forged images
+* Images were converted to grayscale, inverted and scaled down to 0 or up to 255 with OTSU Thresholding
+* Images were resized to 155x220 then normalized
+
+### Training
+The model is trained on Google Colab using Keras which is **Siamese_network_forColab.ipynb**. The model and best weights are saved for the prediction
+
+## Description
+A Restful Web Service to decide  given signatures are real or forged. A service accept 
+
 
 ##### Run the Restful Web Services
 
@@ -40,6 +50,9 @@ python webservice.py
 ```
 pip install -r requirements.txt
 ```
+
+### Docker Image
+---
 
 
 
