@@ -29,10 +29,6 @@ ____
 * Images were converted to grayscale, inverted and scaled down to 0 or up to 255 with OTSU Thresholding
 * Images were resized to 155x220 then normalized
 
-##### Original Image
-
-##### After Preprocessing
-![image](https://user-images.githubusercontent.com/25572428/87489668-4410fe80-c64c-11ea-953d-d4b93d5c87a6.png)
 
 |Original Image | After Preprocessing| 
 | ------------- |:-------------:|
