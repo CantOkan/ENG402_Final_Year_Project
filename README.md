@@ -1,5 +1,6 @@
 ## Offline Signature Verification with Siamese Network
-## Resim gelecek
+
+![Siamese](https://user-images.githubusercontent.com/25572428/87487785-41f87100-c647-11ea-8f40-ec7d694625fa.png)
 
 In that project Siamse Convolutional Neural Network Model is used for offline signature verifcation. It takes two signature pair for verification (Genuine-Forge).
 The feature vector produced by both sides of the Siamese network is measured by a similarity metric containing Euclidean distance. This similarity metric is the most preferred Constrastive loss function, described below.
@@ -52,5 +53,5 @@ pip install -r requirements.txt
 
 ### References
 ---------------------------
-1.[SigNet: Convolutional Siamese Network for Writer Independent Offline SignatureVerification](https://arxiv.org/pdf/1707.02131.pdf)
-2.[OfflineSignatureVerification](https://github.com/Aftaab99/OfflineSignatureVerification)
+#### 1.[SigNet: Convolutional Siamese Network for Writer Independent Offline SignatureVerification](https://arxiv.org/pdf/1707.02131.pdf)
+#### 2.[OfflineSignatureVerification](https://github.com/Aftaab99/OfflineSignatureVerification)
