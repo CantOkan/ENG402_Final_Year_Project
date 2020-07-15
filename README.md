@@ -1,6 +1,5 @@
 ## Offline Signature Verification with Siamese Network
 
-![Siamese](https://user-images.githubusercontent.com/25572428/87487785-41f87100-c647-11ea-8f40-ec7d694625fa.png)
 
 In that project Siamse Convolutional Neural Network Model is used for offline signature verifcation. It takes two signature pair for verification (Genuine-Forge).
 The feature vector produced by both sides of the Siamese network is measured by a similarity metric containing Euclidean distance. This similarity metric is the most preferred Constrastive loss function, described below.
@@ -17,6 +16,9 @@ def contrastive_loss(l, y_pred):
     # α,β= ½ 
     return K.mean((l * (y_pred)**2)*l + (1 - l)* margin_square)
 ```
+
+### Model
+![Siamese](https://user-images.githubusercontent.com/25572428/87487785-41f87100-c647-11ea-8f40-ec7d694625fa.png)
 
 
 
